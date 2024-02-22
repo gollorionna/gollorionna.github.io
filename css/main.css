@@ -1,0 +1,78 @@
+@font-face {
+    font-family:'Frenchpress_freefont';
+    src: local(Frenchpress_freefont),
+    url(/fonts/Frenchpress\ freefont.otf);
+}
+
+@font-face {
+    font-family: PantonRustHeavy;
+    src:local(PantonRustHeavy), url(/fonts/PantonRustHeavy-GrSh.otf);
+}
+
+@font-face {
+    font-family: PantonRustScrSmBold;
+    src:local(PantonRustScrSmBold), url(/fonts/PantonRustScrSmBold-Gr.otf);
+}
+*,
+*::after;
+*::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+
+body{
+    background-color: rgb(211, 176, 132);
+    margin: 50px;
+    
+
+    
+}
+
+.wrapper{
+background-image: url(../img/ava7patterns_wallpaper_2560x1600_1782.png);
+text-indent: 30px;
+line-height: 30px;
+margin: 15px auto;
+}
+
+p{
+    text-indent: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: Frenchpress_freefont;
+    font-size: 30px;
+}
+
+.vikaInst{
+    color: rgb(160, 88, 43);
+    font-size: 50px;
+}
+
+.vikaTel{
+    color:rgb(160, 88, 43);
+    font-size: 50px;
+}
+
+h1{
+    text-align: center;
+    font-family: PantonRustHeavy;
+}
+
+h2{
+    text-align: center;
+    font-family: PantonRustHeavy;
+}
+
+ul{
+    font-family: PantonRustScrSmBold;
+}
